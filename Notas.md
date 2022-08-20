@@ -12,7 +12,7 @@ A entidade <em>**Entrega**</em> foi criada para contemplar a generalização de 
 
 **Observação:**
 
-O desafio abordou a possibilidade de se receber N pagamentos, todavia não especificou quais seriam esses muito menos demais requisitos necessários para uma modelagem mais completa, todavia criei a tabela Boleto e Cartao_Credito saindo da abstração generalista desse dois e contemplando a possibilidade de cadastrar assim N cartões para a mesma pessoa, indaguei no fórum acerca dos demais meios e se deveriam ter entidades específicas, porém após 48 horas não houve resposta substancial, por fim, em grupo de WhatsApp o consenso foi que por se tratar de bootcamp introdutório não teria tal necessidade e a abordagem de abstração generalista conforme as aulas e mais simplista possível contemplaria o desafio.
+O desafio abordou a possibilidade de se receber N pagamentos, todavia não especificou quais seriam esses muito menos demais requisitos necessários para uma modelagem mais completa, todavia criei a tabela <em>**Boleto**</em> e <em>**Cartao_Credito**</em> saindo da abstração generalista desse dois e contemplando a possibilidade de cadastrar assim N cartões para a mesma pessoa, indaguei no fórum acerca dos demais meios e se deveriam ter entidades específicas, porém após 48 horas não houve resposta substancial, por fim, em grupo de WhatsApp o consenso foi que por se tratar de bootcamp introdutório não teria tal necessidade e a abordagem de abstração generalista conforme as aulas e mais simplista possível contemplaria o desafio.
 
 Nesse ponto do bootcamp ainda não foi explanado sobre quais tipo de dados utilizar seguindo as melhores práticas, estando focado na explanação de entidade e atributos...
 
@@ -66,7 +66,7 @@ Tratando assim estrangeiros e adolescentes por exemplo, todavia, limitando-se ao
 
 O causador de muita desavença entre squad de desenvolvimento e DBAs :smile:
 
-Vou defender minha preferência com apontamentos empíricos acumulados ao longo dos anos
+Vou defender minha preferência com apontamentos empíricos acumulados ao longo dos anos.
 
 Comparar string gera overhead extra, usar números reduz esse overhead.
 
